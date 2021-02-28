@@ -11,7 +11,7 @@ function App() {
           <Link to={'/'}>Home</Link> {'  '}
           <Link to={'/otherpage'}>Other Page</Link>
         </header>
-        <h1>Fib Calculator V2</h1>
+        <h1>Fib Calculator Kubernetes</h1>
         <hr/>
         <div>
           <Route exact={true} path={'/'} component={Fib}/>
