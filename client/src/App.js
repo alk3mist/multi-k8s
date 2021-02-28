@@ -9,14 +9,14 @@ function App() {
       <div className="App">
         <header >
           <Link to={'/'}>Home</Link> {'  '}
-          {/*<Link to={'/otherpage'}>Other Page</Link>*/}
+          <Link to={'/otherpage'}>Other Page</Link>
         </header>
-        <h1>Инна - Какаська 💩!</h1>
+        <h1>Fib Calculator version KUBERNETES</h1>
         <hr/>
-        {/*<div>*/}
-        {/*  <Route exact={true} path={'/'} component={Fib}/>*/}
-        {/*  <Route path={'/otherpage'} component={OtherPage}/>*/}
-        {/*</div>*/}
+        <div>
+          <Route exact={true} path={'/'} component={Fib}/>
+          <Route path={'/otherpage'} component={OtherPage}/>
+        </div>
       </div>
     </Router>
 
